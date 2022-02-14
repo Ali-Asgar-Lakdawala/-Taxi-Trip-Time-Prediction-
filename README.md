@@ -21,15 +21,14 @@ Your task is to build a model that predicts the total ride duration of taxi trip
 
 ## Deployment of Streamlit WebApp in Heroku and Streamlit
 
-We have created front-end using Streamlit for the webapp. whose deployments and github link are as follows 
+We have created front-end using Streamlit for the webapp. whose deployments link are as follows 
 
 | Website | Link |
 | ------ | ------ |
-| Github | https://github.com/Ali-Asgar-Lakdawala/ML-deployment |
-| Heroku | https://my-ml-deployments.herokuapp.com/ |
-| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/ml-deployment/main/app.py |
+| Heroku | https://taxi-trip-time-prediction.herokuapp.com/ |
+| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/-taxi-trip-time-prediction-/main/app.py |
 ## Conclusion
 
-* In all of these models, our accuracy revolves in the range of 56 to 91%..with the best fit model as xgboost
+* In all of these models, our MAPE revolves in the range of 0.32 TO 0.42.with the best fit model as LightGBM
 * We were successfull in deploying the strealit app on heruko .
 
