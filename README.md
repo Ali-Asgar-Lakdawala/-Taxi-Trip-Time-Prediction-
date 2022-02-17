@@ -25,8 +25,10 @@ We have created front-end using Streamlit for the webapp. whose deployments link
 
 | Website | Link |
 | ------ | ------ |
-| Heroku | https://taxi-trip-time-prediction.herokuapp.com/ |
-| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/-taxi-trip-time-prediction-/main/app.py |
+| Github | https://github.com/Ali-Asgar-Lakdawala/my-ml-deployment-2 |
+| Heroku | https://my-ml-deployment-2.herokuapp.com/ |
+| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/my-ml-deployment-2/main/app.py|
+
 ## Conclusion
 
 * In all of these models, our MAPE revolves in the range of 0.32 TO 0.42.with the best fit model as LightGBM
