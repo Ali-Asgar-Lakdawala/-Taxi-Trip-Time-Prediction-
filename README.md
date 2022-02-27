@@ -31,7 +31,11 @@ Data fields
 
 ### Exploratory Data Analysis
 After loading the dataset we compared our target variable that is the trip_duration with other independent variables. This process helped us figure out various aspects and relationships among the dependent and the independent variables. It gave us a better idea of which feature behaves in which manner compared to the dependent variable.
+
 ![](https://github.com/Ali-Asgar-Lakdawala/-Taxi-Trip-Time-Prediction-/blob/main/photos/eda.JPG)
+![](https://github.com/Ali-Asgar-Lakdawala/-Taxi-Trip-Time-Prediction-/blob/main/photos/eda2.JPG)
+
+from the above graph we can conclude that the taxi take a long time to reach its destination in afternoon and less time during week end
 ###Null values Treatment
 Our dataset didn’t have any null values to be treated.
 
@@ -60,9 +64,10 @@ For modeling, we tried various classification algorithms like:
 ### Tuning the hyperparameters for better accuracy
 Tuning the hyperparameters of respective algorithms is necessary for getting better accuracy and to avoid overfitting in the case of tree-based models like Random Forest Classifier and XGBoost classifier.
 
-### Features Explainability 
-We have applied SHAP on the XGBoost and CatBoost model to determine the features that were most important while predicting an instance
-And also build a feature importance graph to find out which features were important and which were redundant in a model
+### Features importance
+![](https://github.com/Ali-Asgar-Lakdawala/-Taxi-Trip-Time-Prediction-/blob/main/photos/feature%20importance.JPG)
+To find out which feature is contributing more towards the prediction of time 
+
 
 ### Performance Metrics
 ![](https://github.com/Ali-Asgar-Lakdawala/-Taxi-Trip-Time-Prediction-/blob/main/photos/performance%20metrics.JPG)
